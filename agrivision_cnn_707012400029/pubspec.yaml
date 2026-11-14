@@ -1,0 +1,22 @@
+name: agrivision_cnn_707012400029
+description: "AgriVision CNN - aplikasi pencatatan simulasi deteksi penyakit dan hama padi untuk kelompok tani."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  fl_chart: ^0.70.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
